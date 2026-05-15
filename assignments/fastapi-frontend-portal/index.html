@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment Portal UI</title>
+  <style>
+    body { font-family: sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; }
+    h1 { margin-bottom: 0.5rem; }
+    form { display: grid; gap: 0.5rem; margin-bottom: 1rem; }
+    input, button { padding: 0.5rem; font-size: 1rem; }
+    .status { margin: 0.5rem 0 1rem; min-height: 1.2rem; }
+    ul { padding-left: 1.2rem; }
+  </style>
+</head>
+<body>
+  <h1>Assignment Portal</h1>
+  <p>Create and view assignments from your FastAPI backend.</p>
+
+  <form id="assignment-form">
+    <input id="title" type="text" placeholder="Assignment title" required>
+    <input id="dueDate" type="date" required>
+    <button type="submit">Add Assignment</button>
+  </form>
+
+  <div class="status" id="status"></div>
+  <ul id="assignment-list"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>

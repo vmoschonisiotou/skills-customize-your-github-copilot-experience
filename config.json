@@ -77,6 +77,35 @@
           "type": "txt"
         }
       ]
+    },
+    {
+      "id": "fastapi-frontend-portal",
+      "title": "FastAPI Frontend Integration",
+      "description": "Build a mini assignment portal UI that consumes FastAPI GET and POST endpoints with client-side validation.",
+      "path": "assignments/fastapi-frontend-portal",
+      "dueDate": "2026-05-22",
+      "attachments": [
+        {
+          "name": "Assignment Instructions",
+          "file": "README.md",
+          "type": "txt"
+        },
+        {
+          "name": "Backend Starter (main.py)",
+          "file": "main.py",
+          "type": "python"
+        },
+        {
+          "name": "Frontend Starter (index.html)",
+          "file": "index.html",
+          "type": "html"
+        },
+        {
+          "name": "Frontend Script (app.js)",
+          "file": "app.js",
+          "type": "txt"
+        }
+      ]
     }
   ]
 }

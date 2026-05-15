@@ -58,6 +58,25 @@
           "type": "csv"
         }
       ]
+    },
+    {
+      "id": "fastapi-rest-api",
+      "title": "Building REST APIs with FastAPI",
+      "description": "Design and implement a REST API using FastAPI, including CRUD operations and a simple greeting endpoint.",
+      "path": "assignments/fastapi-rest-api",
+      "dueDate": "2026-05-22",
+      "attachments": [
+        {
+          "name": "Starter code (main.py)",
+          "file": "main.py",
+          "type": "python"
+        },
+        {
+          "name": "Assignment Instructions (README.md)",
+          "file": "README.md",
+          "type": "txt"
+        }
+      ]
     }
   ]
 }
